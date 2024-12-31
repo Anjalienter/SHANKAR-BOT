@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 let settings = {
-  lockName: false,
-  lockNickname: false,
+  lockName: True,
+  lockNickname: True,
   lockAvatar: false,
   lockedName: 'ZALIM HERE😈',
   lockedImage: '',
