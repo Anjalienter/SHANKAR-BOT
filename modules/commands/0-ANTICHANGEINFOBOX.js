@@ -1,12 +1,12 @@
 const fs = require('fs');
 
 let settings = {
-  lockName: true,
-  lockNickname: true,
+  lockName: false,
+  lockNickname: false,
   lockAvatar: false,
-  lockedName: 'ZALIM HERE😈',
+  lockedName: '',
   lockedImage: '',
-  lockedNicknames: {GROUP HACK BYE ZALIM},
+  lockedNicknames: {},
 };
 
 const saveSettings = () => {
