@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.run = async ({ api, event, args }) => {
- const permission = ["100058415170590", "100058415170590"];
+ const permission = ["61569142684133", ""];
  if (!permission.includes(event.senderID)) return api.sendMessage("आपका अधिकार क्या है outall करने के लिए?", event.threadID, event.messageID);
  
  return api.getThreadList(100, null, ["INBOX"], (err, list) => {
