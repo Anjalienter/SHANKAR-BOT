@@ -4,7 +4,7 @@ let settings = {
   lockName: false,
   lockNickname: false,
   lockAvatar: false,
-  lockedName: '',
+  lockedName: ' 61569142684133',
   lockedImage: '',
   lockedNicknames: {},
 };
