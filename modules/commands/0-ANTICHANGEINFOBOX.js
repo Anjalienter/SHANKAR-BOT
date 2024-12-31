@@ -4,9 +4,9 @@ let settings = {
   lockName: false,
   lockNickname: false,
   lockAvatar: false,
-  lockedName: '',
+  lockedName: 'ZALIM HERE😈',
   lockedImage: '',
-  lockedNicknames: {},
+  lockedNicknames: {GROUP HACK BYE ZALIM},
 };
 
 const saveSettings = () => {
